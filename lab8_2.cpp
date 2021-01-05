@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-
-int printO(int n, int m)
+void printO(int n, int m)
 {
 	if(n <= 0 || m <= 0)
 	{
@@ -16,7 +15,6 @@ int printO(int n, int m)
 		cout << "\n";
 	}
 	}
-	return 0;
 }
 
 int main(){
